@@ -1,0 +1,81 @@
+.Sign {
+    width: 100%;
+    height: 80vh;
+    background: #fce3fe;
+    padding-top: 100px;
+}
+.name-inputs {
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 1rem; 
+}
+
+
+.name-input {
+    flex: 1; 
+    margin-right: 10px; 
+}
+
+
+.name-input:last-child {
+    margin-right: 0; 
+}
+.Sign-container {
+    width: 580px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+.Sign-container h1 {
+    margin: 20px 0px;
+}
+  
+.Sign-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+.Sign-fields input {
+    height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+.Sign-container button {
+    width: 580px;
+    height: 72px;
+    color: white;
+    background: #ff4141;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+  }  
+  .Sign-login {
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .Sign-login span {
+    color: #ff4141;
+    font-weight: 600;
+  }
+  
+  .loginsignup-agree {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+  }  
+  

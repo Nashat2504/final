@@ -1,0 +1,103 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: -2px;
+    align-items: center;
+    box-shadow: 0 1px 3px -2px black;
+    background: #7da7d9;
+}
+.head{
+    background: #6695cf;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-logo p{
+    color: #171717;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #3d3c3c;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-menu hr{
+border: none;
+width: 60px;
+height: 3px;
+border-radius: 10px;
+background: #AF1740;
+margin-bottom: -35px;
+margin-left: -63px;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: 500; 
+    color: white; 
+    
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+.nav-login-cart button{
+    width: 160px;
+    height: 60px;
+    outline: none;
+    background: white;
+    border: 1px solid #7a7a7a;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 75px;
+}
+.nav-login-cart button:hover{
+    background-color:#133E87;
+    color: #f3f3f3;
+}
+.nav-login-cart button:active{
+    background-color: #f3f3f3;
+    color: #171717;
+}
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-left: -60px;
+    border: 12px;
+    font-size: 14px;
+    background-color: #AF1740;
+    border-radius: 50%;
+}
+.nav-profail{
+    width: 22px; /* عرض الصورة */
+    height: 22px; /* ارتفاع الصورة */
+    border-radius: 50%; /* لجعل الصورة دائرية */
+    object-fit: cover; /* لتغطية الصورة بشكل جيد */
+    border: 2px solid #ccc; 
+    margin-top: -15px;
+    right: auto;
+}
